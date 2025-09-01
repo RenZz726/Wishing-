@@ -188,16 +188,23 @@
         color: #6b3e26;
       }
       .image-placeholder {
-        width: 100%;
         height: 300px;
+        width: 65%;
         background: #f8d7da;
         border-radius: 15px;
         margin-bottom: 1rem;
         display: flex;
         align-items: center;
+        margin: 0 auto 1rem;
         justify-content: center;
         font-size: 0.9rem;
         color: #555;
+      }
+      .image-placeholder img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
       }
       .wish {
         font-size: 1rem;
@@ -274,9 +281,11 @@
     <div class="floating-icon" style="left: 90%; animation-delay: 3s">🍓</div>
 
     <div class="card">
-      <h1>🎉 Happy Birthday <span id="name">hi</span> 🎂</h1>
+      <h1>🎉 Happy Birthday <span id="name">Nadha Fathimaa..</span> 🎂</h1>
       <h2>A Day as Sweet as Chocolate 🍫 & Fresh as Strawberries 🍓</h2>
-      <div class="image-placeholder">Add a cute photo here</div>
+      <div class="image-placeholder">
+        <img src="imgs/pic.jpg" alt="image">
+      </div>
       <p class="wish">
         Wishing you endless happiness, laughter, and magical moments today and
         always! 💖
